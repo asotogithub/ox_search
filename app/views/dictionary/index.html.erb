@@ -1,0 +1,35 @@
+<div>
+<% if flash[:alert] %>     
+  <div class="alert"><%= flash[:alert] %>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+  </div>      
+<% end %> 
+</div>
+
+<table>
+<tbody>
+<tr>
+<td> <div style="width: 250px">   
+<div class="list-container">
+  <label>Last Words Searches:</label>
+  <div id="lastSearches"></div>       
+</div>  
+</div> </td>
+<td>&nbsp;</td>
+<td><div> 
+<div style="width: 400px">
+<div class="list-container">  
+<%= form_with(url: search_path, method: 'get', local: true) do %>
+  <div class="form-group">
+    <%= label_tag :term, 'Search Definition '%>
+    <%= text_field_tag :term, nil, id:"textTerm", placeholder: 'Intro word', class: 'form-control', required: true %>
+    <%= button_tag 'Search', class: 'button', id:"btnSearch" %>
+<% end %>
+</div>
+</div>
+
+</div>
+</div> </td>
+</tr>
+</tbody>
+</table>

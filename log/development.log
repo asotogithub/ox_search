@@ -1,0 +1,2028 @@
+Started GET "/" for ::1 at 2020-11-01 11:18:46 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/abel/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/abel/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.2ms | Allocations: 409)
+Completed 200 OK in 23ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:25:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for DictionaryController):
+  
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-11-01 11:30:25 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 80)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/abel/ox_search/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.2
+Time: 1808ms
+Built at: 11/01/2020 11:30:29 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4515ms (Views: 4513.7ms | ActiveRecord: 0.0ms | Allocations: 17572)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:31:54 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3953)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:33:46 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:33:47 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3826)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:34:36 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 469)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 5191)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:34:43 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2448)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:51:in `request_api'
+app/controllers/dictionary_controller.rb:84:in `find_term'
+app/controllers/dictionary_controller.rb:7:in `search'
+Started GET "/" for ::1 at 2020-11-01 11:36:20 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 425)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5174)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:36:24 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2450)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:51:in `request_api'
+app/controllers/dictionary_controller.rb:84:in `find_term'
+app/controllers/dictionary_controller.rb:7:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:37:44 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2410)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:37:45 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2450)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/" for ::1 at 2020-11-01 11:38:06 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 4189)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:07 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4005)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:07 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4002)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3998)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4000)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 3994)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:09 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for ::1 at 2020-11-01 11:38:28 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 5148)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:38:33 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:39:49 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:41:49 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2400)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:54:52 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2400)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 11:54:56 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 12:42:07 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/abel/ox_search/app/controllers/dictionary_controller.rb:58: syntax error, unexpected local variable or method, expecting ')'
+            logger.debug 'Just do it'
+            ^~~~~~
+/Users/abel/ox_search/app/controllers/dictionary_controller.rb:59: syntax error, unexpected ')', expecting `end'
+        )
+        ^
+):
+  
+app/controllers/dictionary_controller.rb:58: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/dictionary_controller.rb:59: syntax error, unexpected ')', expecting `end'
+app/controllers/dictionary_controller.rb:58: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/dictionary_controller.rb:59: syntax error, unexpected ')', expecting `end'
+app/controllers/dictionary_controller.rb:58: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/dictionary_controller.rb:59: syntax error, unexpected ')', expecting `end'
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 12:42:34 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2447)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search" for ::1 at 2020-11-01 12:42:52 -0400
+Processing by DictionaryController#search as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1133)
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/dictionary_controller.rb:86:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/" for ::1 at 2020-11-01 12:42:57 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 4180)
+
+
+Started GET "/" for ::1 at 2020-11-01 12:42:58 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4002)
+
+
+Started GET "/" for ::1 at 2020-11-01 12:42:58 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4002)
+
+
+Started GET "/" for ::1 at 2020-11-01 12:42:59 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4008)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 12:43:06 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2444)
+
+
+  
+NameError (uninitialized constant DictionaryController::Excon):
+  
+app/controllers/dictionary_controller.rb:52:in `request_api'
+app/controllers/dictionary_controller.rb:85:in `find_term'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/" for ::1 at 2020-11-01 12:57:19 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 590)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1177ms (Views: 1168.7ms | ActiveRecord: 0.0ms | Allocations: 20476)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 12:57:24 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 2.6ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4573ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 13750)
+
+
+Started GET "/" for ::1 at 2020-11-01 12:57:41 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4044)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 12:57:46 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1406ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 11253)
+
+
+Started GET "/" for ::1 at 2020-11-01 12:57:56 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4018)
+
+
+Started GET "/" for ::1 at 2020-11-01 13:56:40 -0400
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 424)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/abel/ox_search/public/packs
+[Webpacker] Hash: f7e18f21681c823407a2
+Version: webpack 4.44.2
+Time: 1098ms
+Built at: 11/01/2020 1:56:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+      js/termslist-d8554fb722f289249d63.js   7.08 KiB    termslist  [emitted] [immutable]  termslist
+  js/termslist-d8554fb722f289249d63.js.map   5.27 KiB    termslist  [emitted] [dev]        termslist
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+Entrypoint termslist = js/termslist-d8554fb722f289249d63.js js/termslist-d8554fb722f289249d63.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/termslist.js] 3.2 KiB {termslist} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3011ms (Views: 3005.0ms | ActiveRecord: 0.0ms | Allocations: 6393)
+
+
+Started GET "/" for ::1 at 2020-11-01 13:56:46 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 4061)
+
+
+Started GET "/" for ::1 at 2020-11-01 13:57:48 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/abel/ox_search/public/packs
+[Webpacker] Hash: 5a3c99a5ebd7e0e73bf2
+Version: webpack 4.44.2
+Time: 1107ms
+Built at: 11/01/2020 1:57:51 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-540f1feff9af45722c4b.js    128 KiB  application  [emitted] [immutable]  application
+js/application-540f1feff9af45722c4b.js.map    141 KiB  application  [emitted] [dev]        application
+      js/termslist-d8554fb722f289249d63.js   7.08 KiB    termslist  [emitted] [immutable]  termslist
+  js/termslist-d8554fb722f289249d63.js.map   5.27 KiB    termslist  [emitted] [dev]        termslist
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-540f1feff9af45722c4b.js js/application-540f1feff9af45722c4b.js.map
+Entrypoint termslist = js/termslist-d8554fb722f289249d63.js js/termslist-d8554fb722f289249d63.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 794 bytes {application} [built]
+[./app/javascript/packs/termslist.js] 3.2 KiB {termslist} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3030ms (Views: 3027.9ms | ActiveRecord: 0.0ms | Allocations: 5211)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 13:57:56 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 1.0ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1756ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 12946)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 14:02:37 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1357ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 21589)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:02:44 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4058)
+
+
+Started GET "/search?term=case&button=" for ::1 at 2020-11-01 14:02:50 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"case", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1347ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9886)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:02:56 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4051)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:22:23 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 512ms (Views: 507.4ms | ActiveRecord: 0.0ms | Allocations: 12591)
+
+
+Started GET "/search?term=danger&button=" for ::1 at 2020-11-01 14:33:32 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"danger", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1803ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 8385)
+
+
+Started GET "/search?term=danger&button=" for ::1 at 2020-11-01 14:46:48 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"danger", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2676ms (Views: 572.3ms | ActiveRecord: 0.0ms | Allocations: 16808)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:46:57 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4101)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 14:47:03 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1979ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 12060)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:47:10 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:53:53 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 610ms (Views: 608.8ms | ActiveRecord: 0.0ms | Allocations: 13564)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:54:25 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 595ms (Views: 593.8ms | ActiveRecord: 0.0ms | Allocations: 13206)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:59:11 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 460ms (Views: 456.0ms | ActiveRecord: 0.0ms | Allocations: 14388)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:59:14 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/" for ::1 at 2020-11-01 14:59:39 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 372ms (Views: 370.8ms | ActiveRecord: 0.0ms | Allocations: 12787)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 14:59:43 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1687ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 11335)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:01:10 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2737ms (Views: 336.8ms | ActiveRecord: 0.0ms | Allocations: 20119)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:01:15 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1926ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 14861)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:03:56 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2622ms (Views: 348.3ms | ActiveRecord: 0.0ms | Allocations: 20273)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:04:58 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1860ms (Views: 337.5ms | ActiveRecord: 0.0ms | Allocations: 20428)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:05:03 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1290ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 11778)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:06:04 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2204ms (Views: 397.3ms | ActiveRecord: 0.0ms | Allocations: 20470)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:06:51 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4150)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:07:58 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 425)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5263)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:11:05 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:11:07 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:12:01 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 428)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:13:00 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5266)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:13:03 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:14:42 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4107)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:15:38 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5253)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:16:42 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5273)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:16:44 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:16:44 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4105)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:16:44 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4119)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:17:01 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 5263)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:18:01 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 5265)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:18:53 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 5269)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:18:56 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4121)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:18:58 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4107)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:18:59 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:19:26 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:19:28 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4121)
+
+
+Started GET "/search?term=home&button=" for ::1 at 2020-11-01 15:19:31 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"home", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2407ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 15613)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:19:39 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:21:17 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5263)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:21:19 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4109)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:24:26 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:24:30 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 1.2ms | Allocations: 501)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2380ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 15470)
+
+
+Started GET "/dictionary/index" for ::1 at 2020-11-01 15:24:35 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4110)
+
+
+Started GET "/search?term=page&button=" for ::1 at 2020-11-01 15:24:47 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"page", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4964ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 11308)
+
+
+Started GET "/dictionary/index" for ::1 at 2020-11-01 15:24:55 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4105)
+
+
+Started GET "/search?term=danger&button=" for ::1 at 2020-11-01 15:25:09 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"danger", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1145ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 8463)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:25:15 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4123)
+
+
+Started GET "/search?term=three&button=" for ::1 at 2020-11-01 15:25:40 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"three", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 882ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 8418)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:26:06 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4128)
+
+
+Started GET "/search?term=case&button=" for ::1 at 2020-11-01 15:26:24 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"case", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 13.3ms | Allocations: 3442)
+Completed 500 Internal Server Error in 1755ms (ActiveRecord: 0.0ms | Allocations: 11737)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"", :controller=>"dictionary"}):
+     6:         <dt></dt>
+     7:         <dd class="description-word"><%= @term %></dd>        
+     8:       </dl>
+     9:       <%= link_to("Go to Main page", { :action => ''})%>
+    10:    
+    11: </div>
+  
+app/views/dictionary/search.html.erb:9
+Started GET "/" for ::1 at 2020-11-01 15:32:54 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 5319)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:32:55 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4117)
+
+
+Started GET "/search?term=danger&button=" for ::1 at 2020-11-01 15:32:59 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"danger", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.8ms | Allocations: 216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1720ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 9016)
+
+
+Started GET "/dictionary/index" for ::1 at 2020-11-01 15:33:10 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4116)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:33:16 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:33:41 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1052)
+Completed 500 Internal Server Error in 2551ms (ActiveRecord: 0.0ms | Allocations: 13199)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"http://localhost:3000/", :controller=>"dictionary"}):
+     6:         <dt></dt>
+     7:         <dd class="description-word"><%= @term %></dd>        
+     8:       </dl>
+     9:       <%= link_to("Return", { :action => 'http://localhost:3000/'})%>
+    10:    
+    11: </div>
+  
+app/views/dictionary/search.html.erb:9
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:37:01 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1198)
+Completed 500 Internal Server Error in 1800ms (ActiveRecord: 0.0ms | Allocations: 9182)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"http://localhost:3000/", :controller=>"dictionary"}):
+     6:         <dt></dt>
+     7:         <dd class="description-word"><%= @term %></dd>        
+     8:       </dl>
+     9:       <%= link_to("Return", { :action => 'http://localhost:3000/'})%>
+    10:    
+    11: </div>
+  
+app/views/dictionary/search.html.erb:9
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:37:14 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1295ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 24461)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:40:07 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1679ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 14906)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 15:43:25 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1710ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 19018)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:43:41 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4509)
+
+
+Started GET "/search?term=1123s&button=" for ::1 at 2020-11-01 15:43:47 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"1123s", "button"=>""}
+Completed 500 Internal Server Error in 2703ms (ActiveRecord: 0.0ms | Allocations: 4769)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/dictionary_controller.rb:16:in `search'
+Started GET "/search?term=sill&button=" for ::1 at 2020-11-01 15:44:20 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"sill", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1860ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 8130)
+
+
+Started GET "/search?term=sill&button=" for ::1 at 2020-11-01 15:48:39 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"sill", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1374ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 7941)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:54:33 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4221)
+
+
+Started GET "/search?term=cat&button=" for ::1 at 2020-11-01 15:54:44 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"cat", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1774ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 9652)
+
+
+Started GET "/search?term=cat&button=" for ::1 at 2020-11-01 15:55:20 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"cat", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1271ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 9238)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:55:27 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/search?term=dog&button=" for ::1 at 2020-11-01 15:55:31 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"dog", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3383ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 9331)
+
+
+Started GET "/search?term=dog&button=" for ::1 at 2020-11-01 15:59:45 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"dog", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1716ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 13503)
+
+
+Started GET "/" for ::1 at 2020-11-01 15:59:50 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4103)
+
+
+Started GET "/search?term=fish&button=" for ::1 at 2020-11-01 15:59:57 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"fish", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1138ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 9689)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:04:34 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 5234)
+
+
+Started GET "/search?term=house&button=" for ::1 at 2020-11-01 16:04:40 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"house", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1847ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 12567)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:04:48 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:12:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/abel/ox_search/public/packs
+[Webpacker] Hash: a7080569809d5d56f9ef
+Version: webpack 4.44.2
+Time: 1082ms
+Built at: 11/01/2020 4:12:15 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-641089b85fffa80acbf2.js    127 KiB  application  [emitted] [immutable]  application
+js/application-641089b85fffa80acbf2.js.map    141 KiB  application  [emitted] [dev]        application
+      js/termslist-a8686f731b2b241d4d60.js   7.04 KiB    termslist  [emitted] [immutable]  termslist
+  js/termslist-a8686f731b2b241d4d60.js.map   5.22 KiB    termslist  [emitted] [dev]        termslist
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-641089b85fffa80acbf2.js js/application-641089b85fffa80acbf2.js.map
+Entrypoint termslist = js/termslist-a8686f731b2b241d4d60.js js/termslist-a8686f731b2b241d4d60.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 794 bytes {application} [built]
+[./app/javascript/packs/termslist.js] 3.16 KiB {termslist} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2999ms (Views: 2998.1ms | ActiveRecord: 0.0ms | Allocations: 5256)
+
+
+Started GET "/search?term=jacket&button=" for ::1 at 2020-11-01 16:12:21 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"jacket", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2018ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 8867)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:12:28 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4099)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:14:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 433)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/abel/ox_search/public/packs
+[Webpacker] Hash: e6bc1fd834ddb9cd642c
+Version: webpack 4.44.2
+Time: 871ms
+Built at: 11/01/2020 4:14:10 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e1697ca6ca69c210dc1d.js    127 KiB  application  [emitted] [immutable]  application
+js/application-e1697ca6ca69c210dc1d.js.map    141 KiB  application  [emitted] [dev]        application
+      js/termslist-604a5a516effcd81efb3.js   7.01 KiB    termslist  [emitted] [immutable]  termslist
+  js/termslist-604a5a516effcd81efb3.js.map   5.18 KiB    termslist  [emitted] [dev]        termslist
+                             manifest.json  689 bytes               [emitted]              
+Entrypoint application = js/application-e1697ca6ca69c210dc1d.js js/application-e1697ca6ca69c210dc1d.js.map
+Entrypoint termslist = js/termslist-604a5a516effcd81efb3.js js/termslist-604a5a516effcd81efb3.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 794 bytes {application} [built]
+[./app/javascript/packs/termslist.js] 3.12 KiB {termslist} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2312ms (Views: 2311.3ms | ActiveRecord: 0.0ms | Allocations: 6414)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:16:02 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5266)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:16:05 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:16:37 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5272)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:18:25 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 441)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5274)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:18:27 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4107)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:19:34 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 5286)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:19:36 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:19:37 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4103)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:20:27 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5267)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:23:23 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 424)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:23:24 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4122)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:23:24 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4128)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:25:50 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 428)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 5260)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:25:52 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:25:52 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4132)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:26:29 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5246)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:26:59 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 5256)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:04 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:06 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4117)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:42 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 428)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5278)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:43 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4117)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:51 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5254)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:28:52 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:44:14 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 448)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5291)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:44:16 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4128)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:44:18 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:46:21 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:46:23 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:46:31 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 446)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5291)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:47:26 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 444)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5281)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:47:28 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4107)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:47:29 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:47:30 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4105)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:50:19 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 445)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 5288)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:50:21 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4113)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:51:17 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 5272)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:51:42 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 5272)
+
+
+Started GET "/search?term=case&button=" for ::1 at 2020-11-01 16:51:51 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"case", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.7ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1828ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 18872)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:51:58 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4107)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:55:02 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 445ms (Views: 444.5ms | ActiveRecord: 0.0ms | Allocations: 13261)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:55:04 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:55:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:55:23 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 342ms (Views: 341.1ms | ActiveRecord: 0.0ms | Allocations: 13657)
+
+
+Started GET "/" for ::1 at 2020-11-01 16:57:51 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 435)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 380ms (Views: 377.9ms | ActiveRecord: 0.0ms | Allocations: 14784)
+
+
+Started GET "/search?term=&button=" for ::1 at 2020-11-01 17:02:51 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"", "button"=>""}
+Completed 500 Internal Server Error in 839ms (ActiveRecord: 0.0ms | Allocations: 4734)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/dictionary_controller.rb:16:in `search'
+Started GET "/" for ::1 at 2020-11-01 17:05:27 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1153)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2353)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div>
+<% if flash[:alert] %>     
+  <div class="alert"><%= flash[:alert] %>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+  </div>      
+<% end %> 
+</div>
+
+
+
+
+<table>
+<tbody>
+<tr>
+<td> <div style="width: 250px">   
+<div class="list-container">
+  <label>Last Words Searches:</label>
+  <div id="lastSearches"></div>       
+</div>  
+</div> </td>
+<td>&nbsp;</td>
+<td><div> 
+<div style="width: 400px">
+<div class="list-container">  
+<%= form_with(url: search_path, method: 'get', local: true) do %>
+  <div class="form-group">
+    <%= label_tag :term, 'Search for a Definition '%>
+    <%= text_field_tag :term, nil, id:"textTerm", placeholder: 'Intro word', class: 'form-control', required = true %>
+    <%= button_tag 'Search', class: 'button', id:"btnSearch" %>
+<% end %>
+</div>
+</div>
+
+</div>
+</div> </td>
+</tr>
+</tbody>
+</table>
+
+):
+1:    <div>
+2:    <% if flash[:alert] %>     
+3:      <div class="alert"><%= flash[:alert] %>
+4:          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>  
+5:      </div>      
+6:    <% end %> 
+7:    </div>
+8:    
+9:    
+10:    
+11:    
+12:    <table>
+13:    <tbody>
+14:    <tr>
+15:    <td> <div style="width: 250px">   
+16:    <div class="list-container">
+17:      <label>Last Words Searches:</label>
+18:      <div id="lastSearches"></div>       
+19:    </div>  
+20:    </div> </td>
+21:    <td>&nbsp;</td>
+22:    <td><div> 
+23:    <div style="width: 400px">
+24:    <div class="list-container">  
+25:    <%= form_with(url: search_path, method: 'get', local: true) do %>
+26:      <div class="form-group">
+27:        <%= label_tag :term, 'Search for a Definition '%>
+28:        <%= text_field_tag :term, nil, id:"textTerm", placeholder: 'Intro word', class: 'form-control', required = true %>
+29:        <%= button_tag 'Search', class: 'button', id:"btnSearch" %>
+30:    <% end %>
+31:    </div>
+32:    </div>
+33:    
+34:    </div>
+35:    </div> </td>
+36:    </tr>
+37:    </tbody>
+38:    </table>
+  
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:28: syntax error, unexpected ')', expecting =>
+app/views/dictionary/index.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/dictionary/index.html.erb:41: syntax error, unexpected `end', expecting ')'
+Started GET "/" for ::1 at 2020-11-01 17:05:39 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5285)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:06:08 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5273)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:06:10 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:09:25 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4580)
+
+
+Started GET "/search?term=a&button=" for ::1 at 2020-11-01 17:09:29 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"a", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 2.8ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3191ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 11390)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:09:38 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4115)
+
+
+Started GET "/search?term=free&button=" for ::1 at 2020-11-01 17:09:57 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"free", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1318ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 14530)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:10:03 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4116)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:12:29 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 439)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 5267)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:12:30 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 4133)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:12:32 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:13:09 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 436)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5261)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:13:31 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 433)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5269)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:13:55 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 5265)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:13:56 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4123)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:14:10 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5272)
+
+
+Started GET "/search?term=HOUSE&button=" for ::1 at 2020-11-01 17:14:28 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"HOUSE", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1888ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 14604)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:14:35 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4123)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:15:27 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 430)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5259)
+
+
+Started GET "/search?term=whater&button=" for ::1 at 2020-11-01 17:17:04 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"whater", "button"=>""}
+Completed 500 Internal Server Error in 1356ms (ActiveRecord: 0.0ms | Allocations: 4765)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/dictionary_controller.rb:16:in `search'
+Started GET "/search?term=whater&button=" for ::1 at 2020-11-01 17:23:11 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"whater", "button"=>""}
+Completed 500 Internal Server Error in 749ms (ActiveRecord: 0.0ms | Allocations: 4467)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/dictionary_controller.rb:16:in `search'
+Started GET "/search?term=whater&button=" for ::1 at 2020-11-01 17:23:45 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"whater", "button"=>""}
+Completed 500 Internal Server Error in 1839ms (ActiveRecord: 0.0ms | Allocations: 4225)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/dictionary_controller.rb:30:in `+'
+app/controllers/dictionary_controller.rb:30:in `error_code'
+app/controllers/dictionary_controller.rb:56:in `request_api'
+app/controllers/dictionary_controller.rb:39:in `find_definition'
+app/controllers/dictionary_controller.rb:8:in `search'
+Started GET "/search?term=whater&button=" for ::1 at 2020-11-01 17:26:00 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"whater", "button"=>""}
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1332ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 8367)
+
+
+Started GET "/search?term=whater&button=" for ::1 at 2020-11-01 17:27:27 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"whater", "button"=>""}
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1571ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 7867)
+
+
+Started GET "/search?term=cat&button=" for ::1 at 2020-11-01 17:28:53 -0400
+Processing by DictionaryController#search as HTML
+  Parameters: {"term"=>"cat", "button"=>""}
+  Rendering dictionary/search.html.erb within layouts/application
+  Rendered dictionary/search.html.erb within layouts/application (Duration: 2.8ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1773ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 9913)
+
+
+Started GET "/" for ::1 at 2020-11-01 17:29:00 -0400
+Processing by DictionaryController#index as HTML
+  Rendering dictionary/index.html.erb within layouts/application
+  Rendered dictionary/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4151)
+
+
